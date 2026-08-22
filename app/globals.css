@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-lightHover: #fcf4ff;
+  --color-lightHover: #fae8d2;
   --color-darkHover: #2a004a;
   --color-darkTheme: #11001f;
 
-  --font-Elsie: var(--font-elsie);
-  --font-Ovo: var(--font-ovo);
-  --font-Oranienbaum: var(--font-oranienbaum);
+  --font-elsie: var(--font-elsie);
+  --font-ovo: var(--font-ovo);
+  --font-oranienbaum: var(--font-oranienbaum);
+  --font-outfit: var(--font-outfit);
+
+  --shadow-black: 4px 4px 0 #ab5799;
+  --shadow-white: 4px 4px 0 #fff;
 }

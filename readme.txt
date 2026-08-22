@@ -15,3 +15,14 @@ Ok to proceed? (y) y
 
 
 
+files inside "components" folder > mount them in "page.js"
+
+--------------------- Questions ---------------------
+what is lazy loading and eager loading 
+
+
+--------------------- Improvements ---------------------
+when a user scrolls to a different section the logo icon should change 
+write a better about me section 
+apply hover, transition and background color to all buttons
+when you hover over the icons in the "about.jsx" page in the tools i use section, the name of the tool must appear in a small box  

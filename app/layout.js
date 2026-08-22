@@ -1,10 +1,15 @@
-import { Oranienbaum, Elsie, Ovo } from "next/font/google";
+import { Oranienbaum, Elsie, Ovo, Outfit } from "next/font/google";
 import "./globals.css";
 
 const elsie = Elsie({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-elsie",
+});
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-outfit",
 });
 
 const oranienbaum = Oranienbaum({
@@ -28,9 +33,9 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${elsie.variable} ${ovo.variable} ${oranienbaum.variable} h-full antialiased`}
+      className='scroll-smooth'
     >
-      <body className="min-h-full flex flex-col">
+      <body className={`${outfit.variable} ${ovo.variable} ${oranienbaum.variable} ${elsie.variable} antialiased leading-8 overflow-x-hidden`}>
         {children}
       </body>
     </html>
