@@ -12,4 +12,8 @@
 
   --shadow-black: 4px 4px 0 #ab5799;
   --shadow-white: 4px 4px 0 #fff;
+
+  
+
+  --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr))
 }

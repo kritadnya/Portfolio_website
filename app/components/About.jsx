@@ -24,7 +24,7 @@ const About = () => {
 
               Beyond code, I’m a creative at heart. I love drawing, crochet, photography and have trained in Indian classical dance for 12 years. I’m curious, detail-oriented and always excited to learn, create and build something new. ✨ <br />
 
-              I love everything about computers, mathematics and physics. In my free time I go for a run, try new recipes and make fancy decorations for my room! 
+              I love everything about computers, mathematics and physics. I'm the biggest Snoopy fan I know. In my free time I go for a run, try new recipes and make fancy decorations for my room! 
             </p>
             <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
               {infoList.map(({icon,iconDark, title, description}, index)=>(

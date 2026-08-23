@@ -22,7 +22,16 @@ what is lazy loading and eager loading
 
 
 --------------------- Improvements ---------------------
-when a user scrolls to a different section the logo icon should change 
-write a better about me section 
-apply hover, transition and background color to all buttons
-when you hover over the icons in the "about.jsx" page in the tools i use section, the name of the tool must appear in a small box  
+1. when a user scrolls to a different section the logo icon should change 
+2. write a better "about me" section 
+3. apply hover, transition and background color to all buttons
+4. when you hover over the icons in the "about.jsx" page in the tools i use section, the name of the tool must appear in a small box  
+5. in the "about me " section the three columns must be re ordered and include one more column: work place, education, skills, years of experience
+6. "tools i use" should be a separate heading 
+7. In "assets.js" change "serviceData" and "infoList"
+8. each "project" card should be associated with a tech tag,  filters based on the tag (?)
+
+
+
+add confetti button 
+name change to hindi and kannada and another language 
