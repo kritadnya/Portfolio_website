@@ -106,10 +106,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Semantic Book Recommender', description: 'A recommendation engine that helps readers discover their next favorite book....', link: '' },
-    { icon: assets.mobile_icon, title: 'News Summarizer', description: 'This application allows users to paste any article or blog post and receive an instant one-sentence summary... ', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Semantic Book Recommender', description: 'A recommendation engine that helps readers discover their next favorite book....', link: 'https://github.com/kritadnya/semantic-book-recommender' },
+    { icon: assets.mobile_icon, title: 'NLP based News Summarizer', description: 'This application allows users to paste any article or blog post and receive an instant one-sentence summary... ', link: 'https://github.com/kritadnya/Text-Summarizer-Project' },
+    { icon: assets.ui_icon, title: ' DeepFake Image Detection', description: 'Implemented a Deep Learning algorithm that is able to correctly distinguish between real and DeepFake....', link: 'https://github.com/kritadnya/DeepFake-Image-Detection-using-AI-and-ML' },
+    { icon: assets.graphics_icon, title: 'FastAPI CRUD blog', description: 'Production-ready FastAPI backend with authentication and CRUD operations...', link: 'https://github.com/kritadnya/personal-fastapi-blog' },
 ]
 
 export const infoList = [
@@ -120,4 +120,137 @@ export const infoList = [
 
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+];
+
+export const experiences = [
+  {
+    company: "HPE Juniper Networks",
+    role: "Software Engineer 1",
+    period: "Jul 2024 - Present",
+    shortDescription:
+      "Engineering scalable network automation solutions for cloud-scale Junos environments, contributing to Google B4 and Amazon Direct Connect network automation.",
+    details: [
+      "Contributed to the development of 60+ automation scripts supporting Google B4 and Amazon Direct Connect network environments.",
+      "Helped achieve a 75% reduction in deployment cycles, accelerating releases and improving engineering efficiency.",
+      "Developed modular and reusable automation solutions using Python, Java, JavaScript, and Robot Framework for Junos-based platforms.",
+      "Built scalable automation for telemetry validation and gRIBI route programming, improving fault detection and overall network stability.",
+      "Worked with modern networking technologies and protocols including EVPN, OpenConfig, Telemetry, MPLS, gNMI, gNOI, gRPC, and gRIBI.",
+      "Developed internal engineering tools using FastAPI and PostgreSQL to improve task tracking, communication, and workflow visibility.",
+      "Provided end-to-end technical support during critical escalations, troubleshooting complex network automation and validation issues.",
+    ],
+  },
+
+  {
+    company: "Juniper Networks",
+    role: "Software Engineer Intern",
+    period: "Jan 2024 - Jun 2024",
+    shortDescription:
+      "Applied machine learning and NLP techniques to Problem Report data to build predictive solutions for identifying high-risk software defects.",
+    details: [
+      "Led ML and NLP analysis of Problem Report data to identify patterns and high-risk bug areas.",
+      "Applied TF-IDF, Logistic Regression, Random Forest, Decision Trees, XGBoost, regression, and classification techniques.",
+      "Evaluated and optimized multiple classification and forecasting models to improve predictive performance.",
+      "Explored Large Language Models (LLMs) alongside traditional machine learning approaches for engineering data analysis.",
+      "Performed feature analysis, experimentation, and model evaluation to identify effective approaches for production use.",
+      "Developed robust predictive models that contributed to a production-ready AI software solution for proactive defect analysis.",
+    ],
+  },
+];
+
+export const timelineData = [
+  {
+    type: "work",
+    date: "08 Jul 2024 – Present",
+    title: "Software Engineer",
+    organization: "HPE Juniper Networks",
+    location: "Bengaluru, Karnataka",
+
+    description:
+      "Software Engineer with hands-on experience building complete software solutions, spanning backend development, API design, database integration, automation and internal web applications/tools. Developed scalable tools using Python, Java, JavaScript, FastAPI and PostgreSQL, taking projects from requirements and system design through implementation, testing, integration and production support. Built internal engineering tools for task tracking and communication with complete backend workflows and persistent data management, while also developing 60+ automation solutions for large-scale network environments. Experienced in designing reusable components, integrating APIs and modern protocols, debugging production issues, and optimizing application workflows, with a strong focus on building reliable, maintainable and scalable full-stack products.",
+
+    highlights: [
+      "60+ automation scripts for Google B4 & Amazon DX networks",
+      "75% reduction in deployment cycles",
+      "Python, Java, JavaScript & Robot Framework",
+      "EVPN, OpenConfig, Telemetry, MPLS, gNOI & gRPC",
+      "Telemetry validation & GRIBI route programming",
+      "FastAPI & PostgreSQL internal engineering tools",
+    ],
+  },
+
+  {
+    type: "work",
+    date: "03 Jan 2024 – 28 Jun 2024",
+    title: "Software Engineer Intern",
+    organization: "HPE Juniper Networks",
+    location: "Bengaluru, Karnataka",
+
+    description:
+      "During my internship, I worked on development of AI Predictive Analytics: Juniper Bug Detector, a machine learning based application designed to improve software testing and proactive bug prediction. I developed automated data-mining workflows for extracting historical test data, performed data cleaning and labeling, and applied NLP and machine learning techniques to classify test cases into categories, keywords, and subcategories. I also developed forecasting models to predict future test-case category occurrences based on release versions and platforms. The project included risk assessment and 2×2 heat-map visualization, enabling test engineers to identify high-risk areas, prioritize testing efforts, reduce testing overhead, and make more data-driven decisions.",
+
+    highlights: [
+      "ML & NLP analysis of Problem Report data",
+      "TF-IDF Vectorizer",
+      "Logistic Regression & Random Forest",
+      "XGBoost & Decision Trees",
+      "LLMs & classification techniques",
+      "Classification & forecasting optimization",
+      "Production-ready predictive AI tool",
+    ],
+  },
+
+  {
+    type: "work",
+    date: "25 Sep 2023 – 04 Nov 2023",
+    title: "Student Intern",
+    organization: "Visual Computing - Center of Excellence",
+    location: "Bengaluru, Karnataka",
+
+    description:
+      "During my CoE-VC internship, I worked on an AI-powered image captioning system, focusing on making visual information more accessible through deep learning and NLP. I conducted a literature review of existing image-captioning techniques, identified research gaps, and explored CNN, LSTM, and multimodal approaches. I worked with the Flickr 8k dataset, performing image feature extraction using InceptionV3, text preprocessing, vocabulary construction, and data preparation. The project aimed to generate accurate, contextually relevant image descriptions with potential for real-time processing and adaptability across different environments.",
+
+    highlights: [
+      "ML & NLP analysis of Problem Report data",
+      "TF-IDF Vectorizer",
+      "Logistic Regression & Random Forest",
+      "XGBoost & Decision Trees",
+      "LLMs & classification techniques",
+      "Classification & forecasting optimization",
+      "Production-ready predictive AI tool",
+    ],
+  },
+
+
+  {
+    type: "education",
+    date: "24 Dec 2020 – 03 Aug 2024",
+    title: "B.E. in Computer Science",
+    organization: "Rashtreeya Vidyalaya College of Engineering",
+    location: "Bengaluru, Karnataka",
+
+    description:
+      "Completed my Bachelor’s degree in Computer Science with a strong academic record and a CGPA of 9.0/10.0, building a solid foundation in software engineering, data structures, algorithms, databases, machine learning and system development. Beyond academics, I was an active member of the Debate Club, earning multiple prizes in 0+ national and international competitions. I also mentored and trained 50+ junior and school students, strengthening my leadership, communication, and ability to simplify and teach complex concepts. My college experience combined strong technical fundamentals with competitive problem-solving, leadership, collaboration and mentoring.",
+
+    highlights: [
+      "CGPA: 9.0 / 10.0",
+      "Computer Science & Engineering",
+      "Graduated in 2024",
+    ],
+  },
+
+  {
+    type: "education",
+    date: "03 Jul 2018 - 23 Mar 2020",
+    title: "Senior Secondary",
+    organization: "Army Public School",
+    location: "Bengaluru, Karnataka",
+
+    description:
+      "Graduated at the top of the class with an excellent academic record while actively contributing to the academic and cultural life of the school.I competed in virtually every major school dance event and served as a choreographer for prominent school programs and celebrations. I was also an active member of the Debate Club, Literary Society, and Arts & Science Club, developing strong communication, creativity, and critical-thinking skills. Beyond extracurriculars, I used to take free Mathematics and Physics tutoring sessions for peers. ",
+
+    highlights: [
+      "95.6%",
+      "Completed in 2020",
+    ],
+  },
 ];

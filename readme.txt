@@ -30,8 +30,8 @@ what is lazy loading and eager loading
 6. "tools i use" should be a separate heading 
 7. In "assets.js" change "serviceData" and "infoList"
 8. each "project" card should be associated with a tech tag,  filters based on the tag (?)
-
-
-
+9. Remove space above "About" section
+10. change the favicon of nextjs 
+11. Add company Logo in the "Experience" section 
 add confetti button 
 name change to hindi and kannada and another language 

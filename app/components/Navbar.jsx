@@ -37,9 +37,9 @@ const Navbar = () => {
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"}  `}>
             <li> <a className='font-ovo' href="#top" >Home</a> </li>
             <li> <a href="#about" className='font-ovo'>About me</a> </li>
-            {/* <li> <a href="#experience">Experience</a> </li> */}
+            
             <li> <a href="#projects" className='font-Ovo'>Projects</a> </li>
-            <li> <a href="#resume" className='font-ovo'>Resume</a> </li>
+            <li> <a href="#experience" className='font-ovo'>Experience</a> </li>
             <li> <a href="#contact" className='font-ovo'>Contact</a> </li>
 
         </ul>
@@ -72,7 +72,7 @@ const Navbar = () => {
             <li> <a href="#about" className='font-ovo' onClick={closeMenu} >About me</a> </li>
             {/* <li> <a href="#experience">Experience</a> </li> */}
             <li> <a href="#projects" className='font-ovo' onClick={closeMenu} >Projects</a> </li>
-            <li> <a href="#resume" className='font-ovo' onClick={closeMenu} >Resume</a> </li>
+            <li> <a href="#experience" className='font-ovo' onClick={closeMenu} >Experience</a> </li>
             <li> <a href="#contact" className='font-ovo' onClick={closeMenu} >Contact</a> </li>
 
 
