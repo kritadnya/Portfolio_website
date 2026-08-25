@@ -38,6 +38,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import hpe_image from './hpe_image.jpg';
 
 export const assets = {
     user_image,
@@ -79,7 +80,8 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    hpe_image,
 };
 
 export const workData = [
@@ -125,8 +127,10 @@ export const toolsData = [
 export const experiences = [
   {
     company: "HPE Juniper Networks",
-    role: "Software Engineer 1",
+    role: "Software Engineer",
     period: "Jul 2024 - Present",
+    image: assets.hpe_image,
+    location: "Bengaluru, Karnataka",
     shortDescription:
       "Engineering scalable network automation solutions for cloud-scale Junos environments, contributing to Google B4 and Amazon Direct Connect network automation.",
     details: [
@@ -144,6 +148,8 @@ export const experiences = [
     company: "Juniper Networks",
     role: "Software Engineer Intern",
     period: "Jan 2024 - Jun 2024",
+    image: assets.about_me,
+    location: "Bengaluru, Karnataka",
     shortDescription:
       "Applied machine learning and NLP techniques to Problem Report data to build predictive solutions for identifying high-risk software defects.",
     details: [

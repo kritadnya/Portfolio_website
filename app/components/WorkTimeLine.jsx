@@ -312,7 +312,7 @@ function TimelineItem({
 
 
         {/* Highlights */}
-        <div className="mt-5 flex flex-wrap gap-2">
+        {/* <div className="mt-5 flex flex-wrap gap-2">
 
           {item.highlights.map((highlight, highlightIndex) => (
 
@@ -336,7 +336,7 @@ function TimelineItem({
 
           ))}
 
-        </div>
+        </div> */}
 
       </div>
 

@@ -18,7 +18,7 @@ const About = () => {
             <Image src={assets.about_me} alt='user' className='w-full rounded-3xl'/>
           </div>
           <div className='flex-1 font-ovo text-black'>
-            <p className='mb-10 max-w-2xl font-ovo'>
+            <p className='mb-10 max-w-2xl font-ovo text-black'>
               I’m a software developer with 2 years of experience in fullstack development and network automation. At Hewlett Packard Enterprise my day to day work looks like - building tools, fullstack dashboards, debugging and writing automation scripts for Juniper routers used in client networks such as Amazon and Google. <br /> 
               From building beautiful, user friendly websites to working behind the scenes on the backend, I enjoy turning ideas into meaningful experiences. I am skilled in Java, Python, FastAPI, Node.js, Express, React.js, Next.js and Javascript. <br />
 
