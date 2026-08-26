@@ -110,7 +110,7 @@ export default function WorkExperience() {
                 </h3>
 
                 {/* Company */}
-                <p className="mt-2 text-lg text-purple-600 font-medium">
+                <p className="mt-2 text-lg text-greens font-medium">
                   {experience.company}
                 </p>
 

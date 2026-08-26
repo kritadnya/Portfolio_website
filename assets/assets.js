@@ -44,6 +44,8 @@ import img2 from './img2.png';
 import img3 from './img3.png';
 import img4 from './img4.png';
 import img5 from './img5.png';
+import home_page from './home_page.jpeg';
+import footer_image from './footer_image.jpeg';
 
 export const assets = {
     user_image,
@@ -92,6 +94,9 @@ export const assets = {
     img3,
     img4,
     img5,
+    home_page,
+    footer_image,
+
 };
 
 export const workData = [
@@ -262,7 +267,7 @@ export const timelineData = [
     location: "Bengaluru, Karnataka",
 
     description:
-      "Graduated at the top of the class with an excellent academic record while actively contributing to the academic and cultural life of the school.I competed in virtually every major school dance event and served as a choreographer for prominent school programs and celebrations. I was also an active member of the Debate Club, Literary Society, and Arts & Science Club, developing strong communication, creativity, and critical-thinking skills. Beyond extracurriculars, I used to take free Mathematics and Physics tutoring sessions for peers. ",
+      "Graduated at the top of the class with 96% and an excellent academic record while actively contributing to the academic and cultural life of the school.I competed in virtually every major school dance event and served as a choreographer for prominent school programs and celebrations. I was also an active member of the Debate Club, Literary Society, and Arts & Science Club, developing strong communication, creativity, and critical-thinking skills. Beyond extracurriculars, I used to take free Mathematics and Physics tutoring sessions for peers.",
 
     highlights: [
       "95.6%",
