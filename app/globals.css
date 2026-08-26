@@ -4,6 +4,8 @@
   --color-lightHover: #fae8d2;
   --color-darkHover: #2a004a;
   --color-darkTheme: #11001f;
+  --color-light: #fffaff;
+  --color-light-blue:#397eed;
 
   --font-elsie: var(--font-elsie);
   --font-ovo: var(--font-ovo);
@@ -13,6 +15,7 @@
   --shadow-black: 4px 4px 0 #ab5799;
   --shadow-white: 4px 4px 0 #fff;
   --shadow-pink: 4px 4px 0 #f7c8f0;
+  
 
   --font-color: #42c8f5;
 

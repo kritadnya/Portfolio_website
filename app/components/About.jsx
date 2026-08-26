@@ -1,6 +1,9 @@
 import { assets, infoList, toolsData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
+import DailyRoutine from './DailyRoutine'
+import Skills from './Skills'
+
 
 const About = () => {
   return (
@@ -49,7 +52,9 @@ const About = () => {
 
         </div>
 
+        <DailyRoutine />
 
+        <Skills />
       
     </div>
   )

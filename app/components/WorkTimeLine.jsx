@@ -306,7 +306,7 @@ function TimelineItem({
 
 
         {/* Description */}
-        <p className="mt-4 text-gray-800 leading-7 max-w-2xl text-justify">
+        <p className="mt-4 text-gray-900 leading-7 max-w-2xl text-justify hover:bg-light">
           {item.description}
         </p>
 

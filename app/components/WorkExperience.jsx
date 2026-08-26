@@ -68,6 +68,7 @@ export default function WorkExperience() {
                 hover:shadow-pink
                 transition-shadow
                 duration-300
+                hover:bg-light
                 
               "
             >

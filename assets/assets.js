@@ -260,3 +260,76 @@ export const timelineData = [
     ],
   },
 ];
+
+
+export const dailyRoutine = [
+  {
+    time: "120",
+    description: "minutes of coding. I code religiously and i love to code!",
+    image: "",
+  },
+  {
+    time: "60",
+    description: "minutes of studying computer science topics, algorithms and data structures. I believe having strong foundational knowledge goes a long way.",
+    image: "",
+  },
+  {
+    time: "60",
+    description: "minutes of learning new concepts and technologies. System design and computer architechture are my favourite! I am also currenlty learning microservices.",
+    image: "",
+  },
+  {
+    time: "30",
+    description:
+      "minutes of reading blogs of engineers and designers and connecting for discussions. Everyday on my commute I use the time to update myself with developments in the science world.",
+    image: "",
+  },
+  {
+    time: "30",
+    description:
+      "minutes of recharging: yoga, dance or art. I love doing activities that require high focus and low stimulation, yoga helps me stay grounded and bring me so much joy! ",
+    image: "",
+  },
+];
+
+export const skills = [
+  {
+    name: "Python",
+    level: 95,
+  },
+
+{
+    name: "Java",
+    level: 90,
+  },
+  {
+    name: "FastAPI",
+    level: 90,
+  },
+    {
+    name: "Node",
+    level: 80,
+  },
+    {
+    name: "React",
+    level: 80,
+  },
+
+  {
+    name: "SQL (PostgreSQL)",
+    level: 80,
+  },
+  {
+    name: "HTML5, CSS3",
+    level: 80,
+  },
+  {
+    name: "JavaScript",
+    level: 70,
+  },
+  {
+    name: "jQuery",
+    level: 60,
+  },
+
+];
