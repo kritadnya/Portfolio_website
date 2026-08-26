@@ -8,7 +8,7 @@ const Projects = () => {
       <h4 className='text-center mb-2 text-lg font-ovo'>
         Things I've built
       </h4>
-      <h2 className='text-center  text-5xl font-ovo'>
+      <h2 className='text-center  text-5xl font-ovo text-light-black'>
         My Projects
       </h2>
 

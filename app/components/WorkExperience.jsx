@@ -32,7 +32,7 @@ export default function WorkExperience() {
         Professional background
       </h4>
 
-      <h2 className="text-4xl md:text-5xl mb-8 text-center font-ovo">
+      <h2 className="text-4xl md:text-5xl mb-8 text-center font-ovo text-light-black">
         Work Experience
       </h2>
 

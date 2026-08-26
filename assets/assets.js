@@ -39,6 +39,11 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import hpe_image from './hpe_image.jpg';
+import img1 from './img1.png';
+import img2 from './img2.png';
+import img3 from './img3.png';
+import img4 from './img4.png';
+import img5 from './img5.png';
 
 export const assets = {
     user_image,
@@ -82,6 +87,11 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     hpe_image,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
 };
 
 export const workData = [
@@ -266,29 +276,29 @@ export const dailyRoutine = [
   {
     time: "120",
     description: "minutes of coding. I code religiously and i love to code!",
-    image: "",
+    image: assets.img5,
   },
   {
     time: "60",
     description: "minutes of studying computer science topics, algorithms and data structures. I believe having strong foundational knowledge goes a long way.",
-    image: "",
+    image: assets.img4,
   },
   {
     time: "60",
     description: "minutes of learning new concepts and technologies. System design and computer architechture are my favourite! I am also currenlty learning microservices.",
-    image: "",
+    image: assets.img3,
   },
   {
     time: "30",
     description:
       "minutes of reading blogs of engineers and designers and connecting for discussions. Everyday on my commute I use the time to update myself with developments in the science world.",
-    image: "",
+    image: assets.img2,
   },
   {
     time: "30",
     description:
       "minutes of recharging: yoga, dance or art. I love doing activities that require high focus and low stimulation, yoga helps me stay grounded and bring me so much joy! ",
-    image: "",
+    image: assets.img1,
   },
 ];
 

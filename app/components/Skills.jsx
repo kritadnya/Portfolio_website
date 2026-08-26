@@ -55,16 +55,16 @@ function SkillBar({ skill, index }) {
 
 export default function Skills() {
   return (
-    <section className="w-full px-[8%] md:px-[12%] py-16">
+    <section className="w-full px-[8%] md:px-[16%] py-20">
 
       {/* Heading */}
       <div className="text-center mb-10">
 
-        <p className="text-sm text-gray-500 font-ovo mb-1">
+        <p className="text-sm text-gray-900 font-ovo mb-1">
           What I work with
         </p>
 
-        <h2 className="text-3xl md:text-4xl font-ovo">
+        <h2 className="text-3xl md:text-4xl font-ovo text-light-black">
           Skills
         </h2>
 

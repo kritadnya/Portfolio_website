@@ -56,7 +56,7 @@ export default function WorkTimeLine() {
           Timeline
         </p>
 
-        <h2 className="text-4xl md:text-5xl font-ovo">
+        <h2 className="text-4xl md:text-5xl font-ovo text-light-black">
           My Journey
         </h2>
 
@@ -268,7 +268,7 @@ function TimelineItem({
             ${
               isWork
                 ? "text-indigo-700"
-                : "text-emerald-600"
+                : "text-light-green"
             }
           `}
         >

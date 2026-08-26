@@ -53,7 +53,7 @@ export default function DailyRoutine() {
           A little glimpse into my routine
         </p>
 
-        <h2 className="text-4xl md:text-4xl font-ovo">
+        <h2 className="text-4xl md:text-4xl font-ovo text-light-black">
           How I Spend My Day
         </h2>
 
@@ -92,12 +92,12 @@ export default function DailyRoutine() {
               <div
                 className="
                   relative
-                  w-12
-                  h-12
+                  w-20
+                  h-21
                   mb-5
-                  rounded-full
+                  
                   overflow-hidden
-                  bg-gray-100
+                  
                   flex
                   items-center
                   justify-center
@@ -112,7 +112,7 @@ export default function DailyRoutine() {
                     src={item.image}
                     alt=""
                     fill
-                    sizes="48px"
+                    sizes="90px"
                     className="object-cover"
                   />
                 ) : (
