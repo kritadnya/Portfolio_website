@@ -135,9 +135,29 @@ export const infoList = [
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
+// export const toolsData = [
+//     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+// ];
+
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+  {
+    icon: assets.vscode,
+    name: "VS Code",
+  },
+  {
+    icon: assets.git,
+    name: "Git",
+  },
+  {
+    icon: assets.firebase,
+    name: "GitHub",
+  },
+  {
+    icon: assets.mongodb,
+    name: "Postman",
+  },
 ];
+
 
 export const experiences = [
   {
@@ -179,101 +199,197 @@ export const experiences = [
 ];
 
 export const timelineData = [
-  {
-    type: "work",
-    date: "08 Jul 2024 – Present",
-    title: "Software Engineer",
-    organization: "HPE Juniper Networks",
-    location: "Bengaluru, Karnataka",
+//   {
+//     type: "work",
+//     date: "08 Jul 2024 – Present",
+//     title: "Software Engineer",
+//     organization: "HPE Juniper Networks",
+//     location: "Bengaluru, Karnataka",
 
-    description:
-      "Software Engineer with hands-on experience building complete software solutions, spanning backend development, API design, database integration, automation and internal web applications/tools. Developed scalable tools using Python, Java, JavaScript, FastAPI and PostgreSQL, taking projects from requirements and system design through implementation, testing, integration and production support. Built internal engineering tools for task tracking and communication with complete backend workflows and persistent data management, while also developing 60+ automation solutions for large-scale network environments. Experienced in designing reusable components, integrating APIs and modern protocols, debugging production issues, and optimizing application workflows, with a strong focus on building reliable, maintainable and scalable full-stack products.",
+//     description:
+//       "Software Engineer with hands-on experience building complete software solutions, spanning backend development, API design, database integration, automation and internal web applications/tools. Developed scalable tools using Python, Java, JavaScript, FastAPI and PostgreSQL, taking projects from requirements and system design through implementation, testing, integration and production support. Built internal engineering tools for task tracking and communication with complete backend workflows and persistent data management, while also developing 60+ automation solutions for large-scale network environments. Experienced in designing reusable components, integrating APIs and modern protocols, debugging production issues, and optimizing application workflows, with a strong focus on building reliable, maintainable and scalable full-stack products.",
 
-    highlights: [
-      "60+ automation scripts for Google B4 & Amazon DX networks",
-      "75% reduction in deployment cycles",
-      "Python, Java, JavaScript & Robot Framework",
-      "EVPN, OpenConfig, Telemetry, MPLS, gNOI & gRPC",
-      "Telemetry validation & GRIBI route programming",
-      "FastAPI & PostgreSQL internal engineering tools",
-    ],
-  },
+//     highlights: [
+//       "60+ automation scripts for Google B4 & Amazon DX networks",
+//       "75% reduction in deployment cycles",
+//       "Python, Java, JavaScript & Robot Framework",
+//       "EVPN, OpenConfig, Telemetry, MPLS, gNOI & gRPC",
+//       "Telemetry validation & GRIBI route programming",
+//       "FastAPI & PostgreSQL internal engineering tools",
+//     ],
+//   },
 
-  {
-    type: "work",
-    date: "03 Jan 2024 – 28 Jun 2024",
-    title: "Software Engineer Intern",
-    organization: "HPE Juniper Networks",
-    location: "Bengaluru, Karnataka",
+//   {
+//     type: "work",
+//     date: "03 Jan 2024 – 28 Jun 2024",
+//     title: "Software Engineer Intern",
+//     organization: "HPE Juniper Networks",
+//     location: "Bengaluru, Karnataka",
 
-    description:
-      "During my internship, I worked on development of AI Predictive Analytics: Juniper Bug Detector, a machine learning based application designed to improve software testing and proactive bug prediction. I developed automated data-mining workflows for extracting historical test data, performed data cleaning and labeling, and applied NLP and machine learning techniques to classify test cases into categories, keywords, and subcategories. I also developed forecasting models to predict future test-case category occurrences based on release versions and platforms. The project included risk assessment and 2×2 heat-map visualization, enabling test engineers to identify high-risk areas, prioritize testing efforts, reduce testing overhead, and make more data-driven decisions.",
+//     description:
+//       "During my internship, I worked on development of AI Predictive Analytics: Juniper Bug Detector, a machine learning based application designed to improve software testing and proactive bug prediction. I developed automated data-mining workflows for extracting historical test data, performed data cleaning and labeling, and applied NLP and machine learning techniques to classify test cases into categories, keywords, and subcategories. I also developed forecasting models to predict future test-case category occurrences based on release versions and platforms. The project included risk assessment and 2×2 heat-map visualization, enabling test engineers to identify high-risk areas, prioritize testing efforts, reduce testing overhead, and make more data-driven decisions.",
 
-    highlights: [
-      "ML & NLP analysis of Problem Report data",
-      "TF-IDF Vectorizer",
-      "Logistic Regression & Random Forest",
-      "XGBoost & Decision Trees",
-      "LLMs & classification techniques",
-      "Classification & forecasting optimization",
-      "Production-ready predictive AI tool",
-    ],
-  },
+//     highlights: [
+//       "ML & NLP analysis of Problem Report data",
+//       "TF-IDF Vectorizer",
+//       "Logistic Regression & Random Forest",
+//       "XGBoost & Decision Trees",
+//       "LLMs & classification techniques",
+//       "Classification & forecasting optimization",
+//       "Production-ready predictive AI tool",
+//     ],
+//   },
 
-  {
-    type: "work",
-    date: "25 Sep 2023 – 04 Nov 2023",
-    title: "Student Intern",
-    organization: "Visual Computing - Center of Excellence",
-    location: "Bengaluru, Karnataka",
+//   {
+//     type: "work",
+//     date: "25 Sep 2023 – 04 Nov 2023",
+//     title: "Student Intern",
+//     organization: "Visual Computing - Center of Excellence",
+//     location: "Bengaluru, Karnataka",
 
-    description:
-      "During my CoE-VC internship, I worked on an AI-powered image captioning system, focusing on making visual information more accessible through deep learning and NLP. I conducted a literature review of existing image-captioning techniques, identified research gaps, and explored CNN, LSTM, and multimodal approaches. I worked with the Flickr 8k dataset, performing image feature extraction using InceptionV3, text preprocessing, vocabulary construction, and data preparation. The project aimed to generate accurate, contextually relevant image descriptions with potential for real-time processing and adaptability across different environments.",
+//     description:
+//       "During my CoE-VC internship, I worked on an AI-powered image captioning system, focusing on making visual information more accessible through deep learning and NLP. I conducted a literature review of existing image-captioning techniques, identified research gaps, and explored CNN, LSTM, and multimodal approaches. I worked with the Flickr 8k dataset, performing image feature extraction using InceptionV3, text preprocessing, vocabulary construction, and data preparation. The project aimed to generate accurate, contextually relevant image descriptions with potential for real-time processing and adaptability across different environments.",
 
-    highlights: [
-      "ML & NLP analysis of Problem Report data",
-      "TF-IDF Vectorizer",
-      "Logistic Regression & Random Forest",
-      "XGBoost & Decision Trees",
-      "LLMs & classification techniques",
-      "Classification & forecasting optimization",
-      "Production-ready predictive AI tool",
-    ],
-  },
+//     highlights: [
+//       "ML & NLP analysis of Problem Report data",
+//       "TF-IDF Vectorizer",
+//       "Logistic Regression & Random Forest",
+//       "XGBoost & Decision Trees",
+//       "LLMs & classification techniques",
+//       "Classification & forecasting optimization",
+//       "Production-ready predictive AI tool",
+//     ],
+//   },
 
 
-  {
-    type: "education",
-    date: "24 Dec 2020 – 03 Aug 2024",
-    title: "B.E. in Computer Science",
-    organization: "Rashtreeya Vidyalaya College of Engineering",
-    location: "Bengaluru, Karnataka",
+//   {
+//     type: "education",
+//     date: "24 Dec 2020 – 03 Aug 2024",
+//     title: "B.E. in Computer Science",
+//     organization: "Rashtreeya Vidyalaya College of Engineering",
+//     location: "Bengaluru, Karnataka",
 
-    description:
-      "Completed my Bachelor’s degree in Computer Science with a strong academic record and a CGPA of 9.0/10.0, building a solid foundation in software engineering, data structures, algorithms, databases, machine learning and system development. Beyond academics, I was an active member of the Debate Club, earning multiple prizes in 0+ national and international competitions. I also mentored and trained 50+ junior and school students, strengthening my leadership, communication, and ability to simplify and teach complex concepts. My college experience combined strong technical fundamentals with competitive problem-solving, leadership, collaboration and mentoring.",
+//     description:
+//       "Completed my Bachelor’s degree in Computer Science with a strong academic record and a CGPA of 9.0/10.0, building a solid foundation in software engineering, data structures, algorithms, databases, machine learning and system development. Beyond academics, I was an active member of the Debate Club, earning multiple prizes in 0+ national and international competitions. I also mentored and trained 50+ junior and school students, strengthening my leadership, communication, and ability to simplify and teach complex concepts. My college experience combined strong technical fundamentals with competitive problem-solving, leadership, collaboration and mentoring.",
 
-    highlights: [
-      "CGPA: 9.0 / 10.0",
-      "Computer Science & Engineering",
-      "Graduated in 2024",
-    ],
-  },
+//     highlights: [
+//       "CGPA: 9.0 / 10.0",
+//       "Computer Science & Engineering",
+//       "Graduated in 2024",
+//     ],
+//   },
 
-  {
-    type: "education",
-    date: "03 Jul 2018 - 23 Mar 2020",
-    title: "Senior Secondary",
-    organization: "Army Public School",
-    location: "Bengaluru, Karnataka",
+//   {
+//     type: "education",
+//     date: "03 Jul 2018 - 23 Mar 2020",
+//     title: "Senior Secondary",
+//     organization: "Army Public School",
+//     location: "Bengaluru, Karnataka",
 
-    description:
-      "Graduated at the top of the class with 96% and an excellent academic record while actively contributing to the academic and cultural life of the school.I competed in virtually every major school dance event and served as a choreographer for prominent school programs and celebrations. I was also an active member of the Debate Club, Literary Society, and Arts & Science Club, developing strong communication, creativity, and critical-thinking skills. Beyond extracurriculars, I used to take free Mathematics and Physics tutoring sessions for peers.",
+//     description:
+//       "Graduated at the top of the class with 96% and an excellent academic record while actively contributing to the academic and cultural life of the school.I competed in virtually every major school dance event and served as a choreographer for prominent school programs and celebrations. I was also an active member of the Debate Club, Literary Society, and Arts & Science Club, developing strong communication, creativity, and critical-thinking skills. Beyond extracurriculars, I used to take free Mathematics and Physics tutoring sessions for peers.",
 
-    highlights: [
-      "95.6%",
-      "Completed in 2020",
-    ],
-  },
+//     highlights: [
+//       "95.6%",
+//       "Completed in 2020",
+//     ],
+//   },
+
+{
+  type: "work",
+  date: "08 Jul 2024 – Present",
+  title: "Software Engineer",
+  organization: "HPE Juniper Networks",
+  location: "Bengaluru, Karnataka",
+
+  points: [
+    "Built complete software solutions spanning backend development, API design, database integration, automation, and internal web applications.",
+    "Developed scalable tools using Python, Java, JavaScript, FastAPI, and PostgreSQL, taking projects from requirements and system design through implementation, testing, integration, and production support.",
+    "Built internal engineering tools for task tracking and communication with complete backend workflows and persistent data management.",
+    "Developed 60+ automation solutions for large-scale network environments, improving testing efficiency and reducing manual effort.",
+    "Designed reusable components and integrated APIs and modern networking protocols to support reliable and maintainable systems.",
+    "Debugged production issues and optimized application workflows with a focus on scalability, reliability, and maintainability."
+  ]
+},
+
+{
+  type: "work",
+  date: "03 Jan 2024 – 28 Jun 2024",
+  title: "Software Engineer Intern",
+  organization: "HPE Juniper Networks",
+  location: "Bengaluru, Karnataka",
+
+  points: [
+    "Developed Juniper Bug Detector, an AI-powered predictive analytics application designed to improve software testing and proactive bug prediction.",
+    "Built automated data-mining workflows to extract historical test data and performed data cleaning, preprocessing, and labeling.",
+    "Applied NLP and machine learning techniques to classify test cases into categories, keywords, and subcategories.",
+    "Developed forecasting models to predict future test-case category occurrences based on release versions and platforms.",
+    "Implemented risk assessment and 2×2 heat-map visualizations to help test engineers identify high-risk areas and prioritize testing efforts.",
+    "Helped reduce testing overhead by enabling more data-driven testing and prioritization."
+  ]
+},
+
+{
+  type: "work",
+  date: "25 Sep 2023 – 04 Nov 2023",
+  title: "Student Intern",
+  organization: "Visual Computing - Center of Excellence",
+  location: "Bengaluru, Karnataka",
+
+  points: [
+    "Developed an AI-powered image captioning system using deep learning and NLP to generate descriptions of visual content.",
+    "Conducted a literature review of existing image-captioning techniques and explored CNN, LSTM, and multimodal approaches.",
+    "Worked with the Flickr8k dataset for image feature extraction, text preprocessing, vocabulary construction, and data preparation.",
+    "Used InceptionV3 for image feature extraction and prepared visual and textual features for model training.",
+    "Focused on generating accurate and contextually relevant image descriptions with potential for real-time processing and adaptability."
+  ]
+},
+
+{
+  type: "education",
+  date: "24 Dec 2020 – 03 Aug 2024",
+  title: "B.E. in Computer Science",
+  organization: "Rashtreeya Vidyalaya College of Engineering",
+  location: "Bengaluru, Karnataka",
+
+  points: [
+    "Graduated with a CGPA of 9.0/10.0, building strong foundations in software engineering, data structures, algorithms, databases, machine learning, and system development.",
+    "Active member of the Debate Club, participating in national and international competitions.",
+    "Mentored and trained 50+ junior and school students, developing leadership, communication, and teaching skills.",
+    "Strengthened problem-solving, collaboration, and technical communication through academic and extracurricular activities."
+  ],
+
+  highlights: [
+    "CGPA: 9.0 / 10.0",
+    "Computer Science & Engineering",
+    "Graduated in 2024",
+    
+  ]
+},
+
+{
+  type: "education",
+  date: "03 Jul 2018 - 23 Mar 2020",
+  title: "Senior Secondary",
+  organization: "Army Public School",
+  location: "Bengaluru, Karnataka",
+
+  points: [
+    "Graduated at the top of the class with 96% and maintained an excellent academic record.",
+    "Participated in major school dance events and served as a choreographer for prominent school programs and celebrations.",
+    "Active member of the Debate Club, Literary Society, and Arts & Science Club.",
+    "Conducted free Mathematics and Physics tutoring sessions for peers."
+  ],
+  highlights: [
+    "CGPA: 10.0 / 10.0",
+    "Percentage: 96%",
+    "Science Stream - Physics Chemistry Mathematics Biology",
+    "Graduated in 2020",
+
+    
+  ]
+},
+
 ];
 
 

@@ -143,17 +143,18 @@ function TimelineItem({
   total,
   isWork,
 }) {
+  const [showMore, setShowMore] = useState(false);
 
-  /*
-   * Calculate whether this timeline point
-   * has been reached by the scroll.
-   */
   const itemProgress =
     total === 1
       ? 1
       : index / (total - 1);
 
-  const isActive = progress >= itemProgress;
+  const isActive = progress >= itemProgress - 0.15;
+
+  const visiblePoints = showMore
+    ? item.points
+    : item.points.slice(0, 3);
 
   return (
     <div
@@ -166,9 +167,7 @@ function TimelineItem({
       "
     >
 
-      {/* =============================
-          DOT
-      ============================== */}
+      {/* DOT */}
 
       <div className="relative z-10 flex-shrink-0">
 
@@ -179,7 +178,6 @@ function TimelineItem({
             rounded-full
             border-4
             border-white
-            
             flex
             items-center
             justify-center
@@ -189,8 +187,8 @@ function TimelineItem({
             ${
               isActive
                 ? isWork
-                  ? "bg-pink-600 scale-110 "
-                  : "bg-emerald-500 scale-110 shadow-emerald-200"
+                  ? "bg-dot-pink scale-110"
+                  : "bg-dot-green scale-110 shadow-emerald-200"
                 : "bg-gray-300"
             }
           `}
@@ -217,13 +215,12 @@ function TimelineItem({
       </div>
 
 
-      {/* =============================
-          CONTENT
-      ============================== */}
+      {/* CONTENT */}
 
       <div className="flex-1 -mt-1">
 
-        {/* Date */}
+        {/* DATE */}
+
         <div className="mb-3">
 
           <span
@@ -231,7 +228,7 @@ function TimelineItem({
               inline-flex
               px-4
               py-1.5
-              rounded-half
+              rounded-md
               text-sm
               font-semibold
               transition-all
@@ -240,8 +237,8 @@ function TimelineItem({
               ${
                 isActive
                   ? isWork
-                    ? "text-pink-700 bg-pink-100 "
-                    : "text-emerald-700 bg-emerald-100"
+                    ? "border border-light-pink text-pink bg-background-pink"
+                    : "border border-highlight-border text-green bg-background-green"
                   : "text-gray-500 bg-gray-100"
               }
             `}
@@ -252,23 +249,26 @@ function TimelineItem({
         </div>
 
 
-        {/* Title */}
+        {/* TITLE */}
+
         <h3 className="text-xl md:text-2xl font-bold text-gray-900">
           {item.title}
         </h3>
 
 
-        {/* Organization */}
+        {/* ORGANIZATION */}
+
         <p
           className={`
             mt-1
             text-lg
             font-medium
             font-ovo
+
             ${
               isWork
                 ? "text-indigo-700"
-                : "text-light-green"
+                : "text-regular-green"
             }
           `}
         >
@@ -276,7 +276,8 @@ function TimelineItem({
         </p>
 
 
-        {/* Location */}
+        {/* LOCATION */}
+
         <div className="flex items-center gap-2 mt-2 text-sm text-gray-800">
 
           <svg
@@ -305,38 +306,100 @@ function TimelineItem({
         </div>
 
 
-        {/* Description */}
-        <p className="mt-4 text-gray-900 leading-7 max-w-2xl text-justify hover:bg-light">
-          {item.description}
-        </p>
+        {/* POINTS */}
+
+        <div className="mt-4 max-w-2xl hover:bg-light text-justify">
+
+          <ul className="space-y-2.5">
+
+            {visiblePoints.map((point, pointIndex) => (
+
+              <li
+                key={pointIndex}
+                className="flex gap-3 text-gray-900 leading-7"
+              >
+
+                <span
+                  className={`
+                    mt-3
+                    w-1.5
+                    h-1.5
+                    rounded-full
+                    flex-shrink-0
+                    ${
+                      isWork
+                        ? "bg-pink-600 "
+                        : "bg-emerald-500"
+                    }
+                  `}
+                />
+
+                <span>{point}</span>
+
+              </li>
+
+            ))}
+
+          </ul>
 
 
-        {/* Highlights */}
-        {/* <div className="mt-5 flex flex-wrap gap-2">
+          {/* SHOW MORE / LESS */}
 
-          {item.highlights.map((highlight, highlightIndex) => (
+          {item.points.length > 3 && (
 
-            <span
-              key={highlightIndex}
-              className="
+            <button
+              onClick={() => setShowMore(!showMore)}
+              className={`
+                mt-4
                 text-sm
-                px-3
-                py-1.5
-                rounded-lg
-                bg-gray-50
-                border
-                border-gray-200
-                text-gray-600
-                hover:bg-gray-100
-                transition
-              "
+                font-semibold
+                transition-colors
+                hover:underline
+
+                ${
+                  isWork
+                    ? "text-pink hover:text-pink-700"
+                    : "text-emerald-600 hover:text-emerald-700"
+                }
+              `}
             >
-              {highlight}
-            </span>
+              {showMore ? "Show less ↑" : "Show more ↓"}
+            </button>
 
-          ))}
+          )}
 
-        </div> */}
+        </div>
+
+
+        {/* HIGHLIGHTS */}
+
+        {item.highlights && (
+
+          <div className="mt-5 flex flex-wrap gap-2">
+
+            {item.highlights.map((highlight, highlightIndex) => (
+
+              <span
+                key={highlightIndex}
+                className="
+                  text-sm
+                  px-3
+                  py-1.5
+                  rounded-lg
+                  bg-highlight
+                  border
+                  border-highlight-border
+                  text-regular-green
+                "
+              >
+                {highlight}
+              </span>
+
+            ))}
+
+          </div>
+
+        )}
 
       </div>
 

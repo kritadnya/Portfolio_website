@@ -51,7 +51,7 @@ const Navbar = () => {
             </button>
 
 
-            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5  rounded-full ml-4 bg-white bg-opacity-50 shadow-sm'>Contact <Image src={assets.arrow_icon} alt='' className='w-3'/> </a>
+            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5  rounded-full ml-4 bg-white bg-opacity-50 shadow-sm'>kritadnyakk@gmail.com <Image src={assets.arrow_icon} alt='' className='w-2'/> </a>
 
             <button className='block  md:hidden ml-3 cursor-pointer' onClick={openMenu}>
                 <Image src={assets.menu_black} alt=''  className='w-6' />
