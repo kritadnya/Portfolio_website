@@ -43,9 +43,3 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-public/**/*.pdf
-assets/**/logo_new.png
-assets/**/profile-imgs.jpg
-assets/**/profile-img-o.png
-assets/about_me.jpeg
-assets/logo.png
