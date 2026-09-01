@@ -108,7 +108,7 @@ const Header = () => {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/kritadnya-kaling-76b6881ba/"
+              href="YOUR_LINKEDIN_URL"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -128,7 +128,7 @@ const Header = () => {
 
             {/* GitHub */}
             <a
-              href="https://github.com/kritadnya"
+              href="YOUR_GITHUB_URL"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"

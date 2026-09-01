@@ -46,8 +46,25 @@ import img4 from './img4.png';
 import img5 from './img5.png';
 import home_page from './home_page.jpeg';
 import footer_image from './footer_image.jpeg';
+import docker from './docker_img.png';
+import java from './java_img.png';
+import js from './js.png';
+import node from './node.png';
+import pgsql from './postgresql_elephant.svg';
+import py from './python_img.png';
+import react from './react.png';
+import springboot from './springboot.png';
+
 
 export const assets = {
+    docker,
+    java,
+    js,
+    node,
+    pgsql,
+    py,
+    react,
+    springboot,
     user_image,
     code_icon,
     code_icon_dark,
@@ -129,10 +146,11 @@ export const serviceData = [
     { icon: assets.graphics_icon, title: 'FastAPI CRUD blog', description: 'Production-ready FastAPI backend with authentication and CRUD operations...', link: 'https://github.com/kritadnya/personal-fastapi-blog' },
 ]
 
+// work place, education, skills, years of experience
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Work', description: 'Software Engineer at HPE with 2 years of experience.' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.E in Computer Science and Engineering from RVCE, Bengaluru.' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Skills', description: 'Fullstack development, Python, Java, JS, React, Node, Spring.' }
 ];
 
 // export const toolsData = [
@@ -140,6 +158,31 @@ export const infoList = [
 // ];
 
 export const toolsData = [
+  
+    {
+    icon: assets.java,
+    name: "Java",
+  },  {
+    icon: assets.js,
+    name: "JavaScript",
+  },  {
+    icon: assets.py,
+    name: "Python",
+  },  {
+    icon: assets.node,
+    name: "Node",
+  },  {
+    icon: assets.react,
+    name: "React",
+  },  {
+    icon: assets.springboot,
+    name: "SpringBoot",
+  },
+    {
+    icon: assets.pgsql,
+    name: "PostgreSQL",
+  },
+
   {
     icon: assets.vscode,
     name: "VS Code",
@@ -152,11 +195,8 @@ export const toolsData = [
     icon: assets.firebase,
     name: "GitHub",
   },
-  {
-    icon: assets.mongodb,
-    name: "Postman",
-  },
-];
+  
+]
 
 
 export const experiences = [
