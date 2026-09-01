@@ -12,8 +12,8 @@ const Projects = () => {
         My Projects
       </h2>
 
-      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
-        I am passionate about technology and love building fun projects. My interests range from Machine Learning, Natural Language Processing, Operating Systems to Full Stack development!
+      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo text-md'>
+         My interests range from Machine Learning, Natural Language Processing, Operating Systems to Full Stack development!
       </p>
         <div className='grid grid-cols-auto gap-6 my-10 '>
             {serviceData.map(({icon,title,description,link},index)=>(
@@ -22,7 +22,7 @@ const Projects = () => {
                     <h3 className='text-lg my-4 text-black font-ovo'>
                         {title}
                     </h3>
-                    <p className='text-sm text-gray-600 leading-5'>
+                    <p className='text-sm text-black leading-5'>
                         {description}
                     </p>
                     <a href={link} className='flex items-center gap-2 text-sm mt-5' >

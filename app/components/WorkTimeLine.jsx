@@ -60,7 +60,7 @@ export default function WorkTimeLine() {
           My Journey
         </h2>
 
-        <p className="mt-5 leading-7 font-ovo">
+        <p className="mt-5 leading-7 font-ovo text-md">
           From classrooms to building software at scale, here's a glimpse
           into my professional and academic journey.
         </p>

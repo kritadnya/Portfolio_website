@@ -41,7 +41,7 @@ function AnimatedNumber({ value, duration = 900 }) {
 
 export default function DailyRoutine() {
   return (
-    <section className="w-full px-[8%] md:px-[12%] py-20">
+    <section className="w-full px-[8%] md:px-[12%] py-20 bg-blue-50">
 
       {/* =========================
           HEADING
@@ -49,7 +49,7 @@ export default function DailyRoutine() {
 
       <div className="text-center mb-14">
 
-        <p className="text-lg text-gray-900 font-ovo mb-2">
+        <p className="text-xl text-gray-900 font-ovo mb-2">
           A little glimpse into my routine
         </p>
 
@@ -57,7 +57,7 @@ export default function DailyRoutine() {
           How I Spend My Day
         </h2>
 
-        <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
+        <p className='text-center text-lg max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
           I'm a curious person with a lot of hobbies and interests!
         </p>
 
@@ -150,7 +150,7 @@ export default function DailyRoutine() {
                   mt-3
                   text-sm
                   md:text-base
-                  text-gray-500
+                  text-black
                   leading-6
                   max-w-[180px]
                 "

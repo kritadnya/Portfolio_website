@@ -7,8 +7,9 @@
   --color-light: #fffaff;
   --color-light-blue:#397eed;
   --color-light-black: #214a04;
-  --color-light-green: #327d06;
+  --color-light-green: #327d06; 
   --color-greens: #45a312;
+  --color-tools: #0d1c05;
 
   /* color for bg of dates in timeline section */
   --color-background-pink: #fcc2ed;
@@ -21,6 +22,8 @@
   --color-highlight: #d6f5c9;
   --color-highlight-border: #91b881;
   --color-light-pink: #f0a1e8;
+  --color-tools: #f5cef3;
+  --color-infolist: #e058dc;
 
 
   --font-elsie: var(--font-elsie);

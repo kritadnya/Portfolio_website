@@ -189,12 +189,12 @@ export const toolsData = [
   },
   {
     icon: assets.git,
-    name: "Git",
+    name: "Git & Github",
   },
-  {
-    icon: assets.firebase,
-    name: "GitHub",
-  },
+//   {
+//     icon: assets.firebase,
+//     name: "GitHub",
+//   },
   
 ]
 
@@ -207,15 +207,14 @@ export const experiences = [
     image: assets.hpe_image,
     location: "Bengaluru, Karnataka",
     shortDescription:
-      "Engineering scalable network automation solutions for cloud-scale Junos environments, contributing to Google B4 and Amazon Direct Connect network automation.",
+      "Fullstack development and network automation for client networks: Google B4 and Amazon DX.",
     details: [
-      "Contributed to the development of 60+ automation scripts supporting Google B4 and Amazon Direct Connect network environments.",
-      "Helped achieve a 75% reduction in deployment cycles, accelerating releases and improving engineering efficiency.",
-      "Developed modular and reusable automation solutions using Python, Java, JavaScript, and Robot Framework for Junos-based platforms.",
-      "Built scalable automation for telemetry validation and gRIBI route programming, improving fault detection and overall network stability.",
-      "Worked with modern networking technologies and protocols including EVPN, OpenConfig, Telemetry, MPLS, gNMI, gNOI, gRPC, and gRIBI.",
-      "Developed internal engineering tools using FastAPI and PostgreSQL to improve task tracking, communication, and workflow visibility.",
-      "Provided end-to-end technical support during critical escalations, troubleshooting complex network automation and validation issues.",
+      "Developed 260+ automation scripts supporting Google B4 and Amazon Direct Connect network environments.",
+      "Achieved a 75% reduction in deployment cycles.",
+      "Developed modular and reusable automation scripts using Python, Java, JavaScript and Robot Framework for Junos-based routers and controllers.",
+      "Built automation for telemetry and gRIBI route programming.",
+      "Developed employee project status tool using FastAPI and PostgreSQL to improve task tracking, communication, and workflow visibility.",
+      "Developed project wise dashboards using Javascript, React and MongDB.",
     ],
   },
 
@@ -226,14 +225,14 @@ export const experiences = [
     image: assets.about_me,
     location: "Bengaluru, Karnataka",
     shortDescription:
-      "Applied machine learning and NLP techniques to Problem Report data to build predictive solutions for identifying high-risk software defects.",
+      "Developed a software that can predict bug prone areas of a new software release, based on historical problem report data of past 13 years.",
     details: [
-      "Led ML and NLP analysis of Problem Report data to identify patterns and high-risk bug areas.",
-      "Applied TF-IDF, Logistic Regression, Random Forest, Decision Trees, XGBoost, regression, and classification techniques.",
-      "Evaluated and optimized multiple classification and forecasting models to improve predictive performance.",
+      "Led ML and NLP analysis of Problem Report data to identify patterns and high risk bug areas.",
+      "Applied TF-IDF, Logistic Regression, Random Forest, Decision Trees, XGBoost and classification techniques.",
+      "Optimized multiple classification and forecasting models to improve predictive analytics.",
       "Explored Large Language Models (LLMs) alongside traditional machine learning approaches for engineering data analysis.",
-      "Performed feature analysis, experimentation, and model evaluation to identify effective approaches for production use.",
-      "Developed robust predictive models that contributed to a production-ready AI software solution for proactive defect analysis.",
+      "Performed feature analysis, experimentation and model evaluation to identify effective approaches for each case",
+      "Developed an end to end bug forecasting software using a pipeline of classification and regression ML.",
     ],
   },
 ];
