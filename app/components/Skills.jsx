@@ -60,7 +60,7 @@ export default function Skills() {
       {/* Heading */}
       <div className="text-center mb-10">
 
-        <p className="text-sm text-gray-900 font-ovo mb-1">
+        <p className="text-lg text-gray-900 font-ovo mb-1">
           What I work with
         </p>
 

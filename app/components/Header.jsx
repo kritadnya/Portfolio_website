@@ -104,11 +104,11 @@ const Header = () => {
 
         <nav className="mt-8">
 
-          <div className="flex justify-center gap-5">
+          <div className="flex justify-center gap-5 ">
 
             {/* LinkedIn */}
             <a
-              href="YOUR_LINKEDIN_URL"
+              href="https://www.linkedin.com/in/kritadnya-kaling-76b6881ba/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -116,8 +116,8 @@ const Header = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="32"
+                height="32"
                 viewBox="0 0 24 24"
                 className="fill-current"
               >
@@ -128,7 +128,7 @@ const Header = () => {
 
             {/* GitHub */}
             <a
-              href="YOUR_GITHUB_URL"
+              href="https://github.com/kritadnya"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -136,8 +136,8 @@ const Header = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="32"
+                height="32"
                 viewBox="0 0 24 24"
                 className="fill-current"
               >
@@ -154,8 +154,8 @@ const Header = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="32"
+                height="32"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"

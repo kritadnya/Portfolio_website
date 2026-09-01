@@ -33,7 +33,7 @@ const Footer = () => {
 
             {/* LinkedIn */}
             <a
-              href="YOUR_LINKEDIN_URL"
+              href="https://www.linkedin.com/in/kritadnya-kaling-76b6881ba/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -52,7 +52,7 @@ const Footer = () => {
 
             {/* GitHub */}
             <a
-              href="YOUR_GITHUB_URL"
+              href="https://github.com/kritadnya"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -71,7 +71,7 @@ const Footer = () => {
 
             {/* Email */}
             <a
-              href="mailto:YOUR_EMAIL@gmail.com"
+              href="mailto:kritadnyakk@gmail.com"
               aria-label="Email"
               className="hover:text-purple-600 transition"
             >
